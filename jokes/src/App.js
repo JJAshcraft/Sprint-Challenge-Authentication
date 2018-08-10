@@ -39,10 +39,7 @@ state={
    
           <h1 className="App-title">Welcome!</h1>
         </header>
-
-
         <Route path='/signin' component={SignIn}/>
-
          <Route path='/jokes' render={(props)=>{
           return <JokeList jokes = {this.state.jokes} />
          }}/>
